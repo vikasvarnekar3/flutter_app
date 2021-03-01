@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import './screens/first_screen.dart';
+//import './screens/first_screen.dart';
+import './screens/second_screen.dart';
 
-void main() => runApp(myapp());//use of fat arrow and call the class
+void main() => runApp(cont());//use of fat arrow and call the class
 
-class myapp extends StatelessWidget { // define the my app subclass and Statelesswidget
+/*class myapp extends StatelessWidget { // define the my app subclass and Statelesswidget
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,3 +17,5 @@ class myapp extends StatelessWidget { // define the my app subclass and Stateles
     );
   }
 }
+
+ */
